@@ -1,0 +1,30 @@
+1. Create Note :- 
+    Path:- http://localhost:3000/createNote
+
+    Data We need to pass in Body:- 
+    {
+        title: "Titanic",
+        content: "Hero is Good looking"
+    }
+
+    Method:- POST
+
+2. Retrieve Note :-
+    a. Retrieve All Notes in Database:-
+        Path:- http://localhost:3000/showNote
+    b. Retrieve the Particular Id :- 
+        Path:- http://localhost:3000/showNote/6592a047aa0c23d948b52df2
+    
+    Method:- GET
+
+3. Update Note :-
+    Update the particular Data:-
+        Path:- http://localhost:3000/updateNote/6592a047aa0c23d948b52df2
+
+    Method:- PUT
+
+4. Delete Note :-
+    Delete the Particular Data:-
+        Path:- http://localhost:3000/deleteNote/6592a047aa0c23d948b52df2
+
+    Method:- DELETE
